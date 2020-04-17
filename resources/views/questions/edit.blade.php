@@ -7,7 +7,7 @@
                 <div class="card">
                     <div class="card-header">
                         <div class="d-flex align-items-center">
-                            <h2>Ask Question</h2>
+                            <h2>Edit Question</h2>
                             <div class="ml-auto">
                                 <a href="{{route('questions.index')}}" class="btn btn-outline-secondary">Back to all Questions</a>
                             </div>
@@ -18,8 +18,9 @@
                         @include('layouts._messages')
                         <div class="media">
                             <div class="media-body">
-                                <form action="{{route('questions.store')}}" method="post">
-                                    @include('questions._form',['buttonText'=>'Ask this Question'])
+                                <form action="{{route('questions.update',$question->id)}}" method="post">
+                                    @method('PUT')
+                                    @include('questions._form',['buttonText'=>'Update Question'])
                                 </form>
                             </div>
                         </div>

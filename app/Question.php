@@ -17,9 +17,13 @@ class Question extends Model
         $this->attributes['title']=$value;
         $this->attributes['slug']=Str::slug($value);
     }
-    //    generate question url
+    //    generate question view url
     public function getUrlAttribute(){
         return route("questions.show",$this->id);
+    }
+    //    generate question edit url
+    public function getEditUrlAttribute(){
+        return route("questions.edit",$this->id);
     }
     // get created date
     public  function  getCreatedDateAttribute(){
