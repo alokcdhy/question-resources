@@ -4,7 +4,6 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
-
 class Question extends Model
 {
     //    mass assignment
@@ -18,8 +17,8 @@ class Question extends Model
         $this->attributes['slug']=Str::slug($value);
     }
     //    generate question view url
-    public function getUrlAttribute(){
-        return route("questions.show",$this->id);
+    public function getViewAttribute(){
+        return route("questions.show",$this->slug);
     }
     //    generate question edit url
     public function getEditAttribute(){
@@ -42,5 +41,9 @@ class Question extends Model
             return 'answered';
         }
         return 'unanswered';
+    }
+    // body
+    public function getBodyHtmlAttribute(){
+        return \Parsedown::instance()->text($this->body);
     }
 }

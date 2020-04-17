@@ -2,3 +2,5 @@ To generate pagination page from vendor
 => php artisan vendor:publish --tag=laravel-pagination
 Laravel Debugbar
 => composer require barryvdh/laravel-debugbar --dev
+Parsedown
+=> composer require parsedown/laravel

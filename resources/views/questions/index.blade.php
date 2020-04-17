@@ -31,7 +31,7 @@
                                 </div>
                                 <div class="media-body">
                                     <div class="d-flex align-items-center">
-                                        <h3 class="mt-0"><a href="{{$question->url}}">{{$question->title}} </a></h3>
+                                        <h3 class="mt-0"><a href="{{$question->view}}">{{$question->title}} </a></h3>
                                         <div class="ml-auto">
                                             <a href="{{$question->edit}}" class="btn btn-outline-info btn-sm">Edit</a>
                                             <form class="form-delete" action="{{$question->delete}}" method="post">
