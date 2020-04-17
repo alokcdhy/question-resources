@@ -22,8 +22,12 @@ class Question extends Model
         return route("questions.show",$this->id);
     }
     //    generate question edit url
-    public function getEditUrlAttribute(){
+    public function getEditAttribute(){
         return route("questions.edit",$this->id);
+    }
+    //    generate question delete url
+    public function getDeleteAttribute(){
+        return route("questions.destroy",$this->id);
     }
     // get created date
     public  function  getCreatedDateAttribute(){
