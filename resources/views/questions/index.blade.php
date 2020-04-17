@@ -33,10 +33,10 @@
                                     <div class="d-flex align-items-center">
                                         <h3 class="mt-0"><a href="{{$question->view}}">{{$question->title}} </a></h3>
                                         <div class="ml-auto">
-                                            @can('update-question',$question)
+                                            @can('update',$question)
                                             <a href="{{$question->edit}}" class="btn btn-outline-info btn-sm">Edit</a>
                                             @endcan
-                                            @can('delete-question',$question)
+                                            @can('delete',$question)
                                             <form class="form-delete" action="{{$question->delete}}" method="post">
                                                 @method('DELETE')
                                                 @csrf
