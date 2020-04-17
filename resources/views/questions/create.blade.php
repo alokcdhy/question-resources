@@ -15,6 +15,7 @@
                     </div>
 
                     <div class="card-body">
+                        @include('layouts._messages')
                         <div class="media">
                             <div class="media-body">
                                 <form action="{{route('questions.store')}}" method="post">
