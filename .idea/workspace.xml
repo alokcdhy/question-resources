@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eeae4d3-de0f-42af-a9b8-a19cae9f9079" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Question.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_04_17_030748_create_questions_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Question.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +28,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="relation_design" />
+                    <option name="lastUsedInstant" value="1587094364" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="schema_design" />
                     <option name="lastUsedInstant" value="1587092811" />
@@ -178,7 +181,7 @@
       <updated>1587003286662</updated>
       <workItem from="1587003310817" duration="3699000" />
       <workItem from="1587046008430" duration="1055000" />
-      <workItem from="1587090798793" duration="2472000" />
+      <workItem from="1587090798793" duration="4638000" />
     </task>
     <servers />
   </component>
