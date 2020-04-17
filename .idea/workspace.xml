@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eeae4d3-de0f-42af-a9b8-a19cae9f9079" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/database/factories/AnswerFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/QuestionResource.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/QuestionResource.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Answer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Answer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/QuestionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/QuestionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Question.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/QuestionFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/QuestionFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_04_17_030748_create_questions_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_04_17_030748_create_questions_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_04_17_171336_create_answers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_04_17_171336_create_answers_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/questions/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/questions/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools" beforeDir="false" afterPath="$PROJECT_DIR$/tools" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,15 +43,15 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1587101021" />
+                    <option name="lastUsedInstant" value="1587148908" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="factory" />
-                    <option name="lastUsedInstant" value="1587097019" />
+                    <option name="branchName" value="7e09267782675a0d5bae062fdc124613c6a089de" />
+                    <option name="lastUsedInstant" value="1587148357" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="relation_design" />
-                    <option name="lastUsedInstant" value="1587094364" />
+                    <option name="branchName" value="4b7126879c3ff09912bb2d048367e4bf171635e3" />
+                    <option name="lastUsedInstant" value="1587148227" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="schema_design" />
@@ -153,6 +167,9 @@
       <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
       <path value="$PROJECT_DIR$/vendor/parsedown/laravel" />
       <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
     </include_path>
   </component>
   <component name="ProjectId" id="1abTQz0eUCP4g5CCFlyRRuphqHc" />
@@ -198,6 +215,7 @@
       <workItem from="1587046008430" duration="1055000" />
       <workItem from="1587090798793" duration="4638000" />
       <workItem from="1587105867836" duration="26053000" />
+      <workItem from="1587148801184" duration="1859000" />
     </task>
     <servers />
   </component>

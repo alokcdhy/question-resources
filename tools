@@ -4,3 +4,5 @@ Laravel Debugbar
 => composer require barryvdh/laravel-debugbar --dev
 Parsedown
 => composer require parsedown/laravel
+Doctrine (for rename table columns ,....)
+=> composer require doctrine/dbal

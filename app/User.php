@@ -45,4 +45,11 @@ class User extends Authenticatable
 //        return route("questions.show",$this->id);
         return "javascript:;";
     }
+    public function answers(){
+        return $this->hasMany(Answer::class);
+    }
+    // body
+    public function getBodyHtmlAttribute(){
+        return \Parsedown::instance()->text($this->body);
+    }
 }
