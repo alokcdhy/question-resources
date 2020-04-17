@@ -9,6 +9,11 @@ use Illuminate\Support\Str;
 use App\Http\Requests\AskQuestionRequest;
 class QuestionController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth',['except'=>['index','show']]);
+    }
+
     /**
      * Display a listing of the resource.
      *
