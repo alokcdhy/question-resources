@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eeae4d3-de0f-42af-a9b8-a19cae9f9079" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/QuestionController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/questions/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +185,7 @@
       <workItem from="1587003310817" duration="3699000" />
       <workItem from="1587046008430" duration="1055000" />
       <workItem from="1587090798793" duration="4638000" />
-      <workItem from="1587105867836" duration="2019000" />
+      <workItem from="1587105867836" duration="2406000" />
     </task>
     <servers />
   </component>
@@ -203,6 +200,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="27" key="#Composer/0.0.1366.738@0.0.1366.738" timestamp="1587004013939" />
+    <state x="454" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587108237983">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="454" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1587108237983" />
     <state x="413" y="123" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1587099408086">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
