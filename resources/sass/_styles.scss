@@ -1,0 +1,28 @@
+.counters{
+    margin-right: 30px;
+    fornt-size:10px;
+    text-align: center;
+    strong{
+        display: block;
+        font-size: 1.5em;
+    }
+    .vote,.status{
+        width: 70px;
+    }
+    .status{
+        &.unanswered{
+            border:none;
+        }
+        &.answered{
+            border: 1px solid $green;
+            color: $green;
+        }
+        &.answered-accepted{
+            background: $green;
+            color: $white;
+        }
+    }
+    .view{
+        margin-top: 10px;
+    }
+}
